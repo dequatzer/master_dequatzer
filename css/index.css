@@ -1,0 +1,133 @@
+body {
+        color: #GGG;
+        font-family:Arial, Helvetica,sans-serif;
+        font-size: 62.5%;
+        background: transparent url(../images/index.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    #main {
+      width: 900px;
+        margin: 0 auto;
+        padding: 0 10px;
+        border: 2px solid #002D4B;
+
+    }
+
+    #main h1 {
+        color:cadetblue;
+        font-family: fantasy, Arial, Helvetica, sans-serif;
+        font-size: 4em;
+    }
+
+    #main h2 {
+        color: cadetblue;
+        font: bold 2.5em "Hoefler Text", Garamond, Times, serif;
+        border-bottom: 1px solid #002D4B;
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+
+    #main p {
+        font-size: 2em;
+        line-height: 150%;
+        margin-left: 150px;
+        margin-right: 200px;
+        margin-bottom: 10px;
+        font-family: monospace;
+    }
+
+
+    #main p strong:first-child {
+      color:black;
+      text-transform: uppercase;
+      font-size:bolder
+      font-family: monospace,sans-serif;
+    }
+
+    #main p:last-child {
+        font-family: cursive;
+    }
+
+    nav {
+        font-size: 2em;  
+        text-align: right;
+        margin-top: -20px;
+        margin-bottom: 0;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 0px;
+        width: 146px;
+    }
+
+    nav li a {
+        display: inline-block;
+        min-width: 150px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        color: cadetblue;
+        background:black;
+        text-decoration: none;
+        font-family: monospace, sans-serif;
+        padding: 0px;
+    }
+
+    nav li a:hover {
+        background-color: cornflowerblue;
+        color: black;
+        transform: scale(1.1);
+        transition: all 1s;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    article li a:hover {
+        background-color:rgba(255,255,255,0.5);
+        color: black;
+        transform: scale(1.1);
+        transition: all 1s;
+        box-shadow: 5px 5px 5px black;
+    }
+
+
+    article 
+    {
+        font-size: 1.5em;
+        text-align: left;
+        font-family: monospace, sans-serif;
+        float: right;
+        width: 150px;
+        padding-right: 30px;
+        
+    }
+
+    .transparent{
+        background:rgba(255,255,255,0.0);
+    }
+
+    article li {
+        list-style-type: none;
+        min-height: 1px;
+    }
+
+    article li a {
+        display: inline-block;
+        min-width: 100px;
+        height: 1px;
+        text-align: center;
+        vertical-align:middle;
+        line-height: 1px;
+        color: cadetblue;
+        background:rgba(255,255,255,0.1);
+        text-decoration: none;
+        font-family: monospace, sans-serif;
+        padding: 20px;
+        margin: 0.5px;
+    }
