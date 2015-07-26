@@ -18,14 +18,17 @@ body {
         color:cadetblue;
         font-family: fantasy, Arial, Helvetica, sans-serif;
         font-size: 4em;
+        text-shadow: 10px 10px 1px black;
+        
     }
 
     #main h2 {
         color: cadetblue;
-        font: bold 2.5em "Hoefler Text", Garamond, Times, serif;
+        font: bold 2em "Hoefler Text", Garamond, Times, serif;
         border-bottom: 1px solid #002D4B;
         margin-top: 25px;
         margin-bottom: 0px;
+        text-align: left;
     }
 
     #main p {
